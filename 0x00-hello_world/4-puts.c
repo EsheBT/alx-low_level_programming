@@ -1,6 +1,8 @@
 #include <stdio.h>
 /**
- * betty now fixed and corrected to write comment for my program in the future
+ *main- serves as entry point for the program
+ *
+ * Return: By default returns zero if no errors otherwise returns non-zero value.
  */
 int main(void)
 {
