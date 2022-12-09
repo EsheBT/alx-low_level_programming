@@ -4,9 +4,12 @@
 /* more headers goes there */
 
 /* betty style doc for function main goes there */
-/* main the main part to be included */
+/**
+ * main - the main part to be included 
+ *  
+ * Return: return o
+ */
 int main(void)
-/* main oh main function */
 {
 	int n;
 
