@@ -5,9 +5,9 @@
 
 /* betty style doc for function main goes there */
 /**
- * main - the main part to be included 
- *  
- * Return: return o
+ * main - main function
+ *
+ * Return: return 0
  */
 int main(void)
 {
