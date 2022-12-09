@@ -20,7 +20,7 @@ int main(void)
 	m = n % 10;
 	if (m > 5)
 	{
-		printf("%d and is grater than 5\n", m);
+		printf("%d and is greater than 5\n", m);
 	}
 	else if (m < 6 && m != 0)
 	{
