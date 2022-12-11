@@ -13,10 +13,10 @@ int main(void)
 
 	for (m = '0' ; m <= '9' ; m++)
 	{
-	printf(%d ,m);
+	printf("%d" ,m);
 
 	}
-	printf('\n');
+	putchar('\n');
 
 	return (0);
 }
