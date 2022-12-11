@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+/**
+ * main - The primary function
+ *
+ *
+ * Return: end the function execusion
+ */
+
+int main(void)
+{
+	char m;
+
+	for (m = '0' ; m <= '9' ; m++)
+	{
+	putchar(m);
+
+	}
+	putchar('\n');
+
+	return (0);
+}
