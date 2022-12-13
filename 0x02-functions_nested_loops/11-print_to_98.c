@@ -1,7 +1,8 @@
 #include "main.h"
+#include <stdio.h>
 /**
- * print_to_98 - prints numbers from n to 98
- *
+ * print_to_98 - a function that prints all natural numbers from n to 98
+ * user input's number prints to 98, regardless < 98 or > 98
  * @number:  input
  * Return: Always 0 (Success)
  */
@@ -11,10 +12,10 @@ void print_to_98(int number)
 	{
 		while (number <= 98)
 		{
-			_putchar("%d", number);
+			printf("%d", number);
 			if (number != 98)
 			{
-				_putchar(", ");
+				printf(", ");
 			}
 			number++;
 		}
@@ -23,17 +24,17 @@ void print_to_98(int number)
 	{
 		while (number >= 98)
 		{
-			_putchar("%d", number);
+			printf("%d", number);
 			if (number != 98)
 			{
-				_putchar(", ");
+				printf(", ");
 			}
 			number--;
 		}
 	}
 	else
 	{
-		_putchar("98");
+		printf("98");
 	}
-	_putchar("\n");
+	printf("\n");
 }
