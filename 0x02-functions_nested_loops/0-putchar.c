@@ -6,12 +6,12 @@
  */
 int main(void)
 {
-	char *sh = "_putchar";
+	char *eshetu= "_putchar";
 
-	while (*sh)
+	while (*eshetu)
 	{
-		_putchar(*sh);
-		sh++;
+		_putchar(*eshetu);
+		eshetu++;
 	}
 	_putchar('\n');
 
