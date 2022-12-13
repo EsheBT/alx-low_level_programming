@@ -11,10 +11,10 @@ void print_to_98(int number)
 	{
 		while (number <= 98)
 		{
-			printf("%d", number);
+			_putchar("%d", number);
 			if (number != 98)
 			{
-				printf(", ");
+				_putchar(", ");
 			}
 			number++;
 		}
@@ -23,17 +23,17 @@ void print_to_98(int number)
 	{
 		while (number >= 98)
 		{
-			printf("%d", number);
+			_putchar("%d", number);
 			if (number != 98)
 			{
-				printf(", ");
+				_putchar(", ");
 			}
 			number--;
 		}
 	}
 	else
 	{
-		printf("98");
+		_putchar("98");
 	}
-	printf("\n");
+	_putchar("\n");
 }
