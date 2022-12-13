@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-	char *eshetu= "_putchar";
+	char *eshetu = "_putchar";
 
 	while (*eshetu)
 	{
