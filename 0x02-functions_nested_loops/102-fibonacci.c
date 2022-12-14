@@ -5,16 +5,16 @@
   */
 int main(void)
 {
-	unsigned long count, f, se, sum;
+	unsigned long count, f, se, su;
 
 	f = 0;
 	se = 1;
 	for (count = 0; count < 50; count++)
 	{
-		sum = f + se;
+		su = f + se;
 		f = se;
-		se = sum;
-		printf("%lu", sum);
+		se = su;
+		printf("%lu", su);
 		if (count == 49)
 			putchar('\n');
 		else
