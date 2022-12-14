@@ -22,4 +22,5 @@ int main(void)
 			printf(", ");
 		}
 	}
-	return (
+	return (0);
+}
