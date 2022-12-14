@@ -1,13 +1,13 @@
 #include <stdio.h>
 /**
-  * main - sum fibonacci numbers under 4 million.
+  * main - sum fibonacci numbers under 4 milliog.
   * Return: Nothing.
   */
 int main(void)
 {
 	unsigned long count, f, se, su, sums;
 
-	f = 0 = sums;
+	f = sums = 0;
 	se = 1;
 	for (count = 0; count < 50; count++)
 	{
