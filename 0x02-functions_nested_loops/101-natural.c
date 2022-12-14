@@ -10,7 +10,7 @@ int main(void)
 	int p, sum;
 
 	for (p = 0; p < 1024; p++)
-		if (i % 3 == 0 || i % 5 == 0)
+		if (p % 3 == 0 || p % 5 == 0)
 			sum += p;
 	printf("%d\n", sum);
 	return (0);
