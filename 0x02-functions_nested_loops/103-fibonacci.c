@@ -1,24 +1,24 @@
 #include <stdio.h>
 /**
-  * main - sum fibonacci numbers under 4 milliog.
+  * main - sum even fibonacci numbers under 4 million.
   * Return: Nothing.
   */
 int main(void)
 {
-	unsigned long count, f, se, su, sums;
+	unsigned long count, i, j, k, sums;
 
-	f = sums = 0;
-	se = 1;
+	i = sums = 0;
+	j = 1;
 	for (count = 0; count < 50; count++)
 	{
-		su = f + se;
-		f = se;
-		se = su;
-		if (su % 2 == 0 && su < 4000000)
+		k = i + j;
+		i = j;
+		j = k;
+		if (k % 2 == 0 && k < 4000000)
 		{
-			sums = sums + su;
+			sums += k;
 		}
-		printf("%lu\n", sums);
 	}
+	printf("%lu\n", sums);
 	return (0);
 }
