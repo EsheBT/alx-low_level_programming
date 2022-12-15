@@ -2,7 +2,8 @@
 
 /**
  * print_numbers - a function that prints 0 to 9
- * Return: multiplication result of the 2 inputs
+ *
+ * Return: 0 -9 digit 
  */
 void print_numbers(void)
 {
