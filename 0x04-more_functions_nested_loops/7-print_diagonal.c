@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * print_line - a function that draws a straight line in the terminal
+ * print_diagonal - a function that draws a diagonal line in the terminal
  * @r: input number of times to print '_'
- * Return: a straight line
+ * Return: a diagonal line
  */
-void print_line(int r)
+void print_diagonal(int r)
 {
 	int start, eshetu;
 
@@ -22,8 +22,8 @@ void print_line(int r)
 				_putchar(' ');
 			}
 				_putchar('\');
-		}
 				_putchar('\n');
+		}
 	}
 }
 
