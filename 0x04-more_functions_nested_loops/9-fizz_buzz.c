@@ -10,23 +10,23 @@
  */
 int main(void)
 {
-	int x;
-	char a[] = "Fizz";
+	int i;
+	char f[] = "Fizz";
 	char b[] = "Buzz";
-	char ab[] = "FizzBuzz";
+	char fb[] = "FizzBuzz";
 
-	for (x = 1; x <= 100; x++)
+	for (i = 1; i <= 100; i++)
 	{
-		if (x == 100)
-			printf("%s", b)
-		else if ((x % 3 == 0) && (x % 5 == 0))
-			printf("%s ", ab);
+		if (i == 100)
+			printf("%s", b);
+		else if ((i % 3 == 0) && (i % 5 == 0))
+			printf("%s ", fb);
 		else if (i % 3 == 0)
-			printf("%s ", a);
+			printf("%s ", f);
 		else if (i % 5 == 0)
 			printf("%s ", b);
 		else
-			printf("%d ", x);
+			printf("%d ", i);
 	}
 	printf("\n");
 	return (0);
