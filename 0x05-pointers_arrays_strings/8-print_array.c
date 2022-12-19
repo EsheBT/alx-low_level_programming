@@ -1,18 +1,18 @@
-#include <stdio.h>
 #include "main.h"
 
 /**
- * print_array - a function that prints n elements of an array
- * @z: array name
- * @n: is the number of elements OF the array to be printed
- * Return: a and n inputs
+ * print_array - function that prints n elements of an array
+ * @a: array name
+ * @n: input
+ * Return: string
  */
-void print_array(int *z, int n)
+void print_array(int *a, int n)
 {
-	int i;
-
-	for (i = 0; i < n; i++)
-		printf("%d, ", z[i] -1);
-
-	printf("\n");
+	for (int i = 0;; ++i)
+	{
+		if (a[i] == a[n])
+			break;
+		printf("%d ", a[i]);
+	}
 }
+
