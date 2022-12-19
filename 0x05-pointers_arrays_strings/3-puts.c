@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stdout.h>
+
 /**
  * _puts - a function that prints a string
  * @str: string input
@@ -7,11 +7,11 @@
  */
 void _puts(char *str)
 {
-	int a;
+	int i;
 
-	for (a = 0; str[a] != '\0'; a++)
+	for (i = 0; str[i] != '\0'; i++)
 	{
-		_putchar(str[a]);
+		_putchar(str[i]);
 	}
 	_putchar('\n');
 }
