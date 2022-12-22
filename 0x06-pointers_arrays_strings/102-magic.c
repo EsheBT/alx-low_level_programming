@@ -1,5 +1,13 @@
 #include <stdio.h>
 
+/**
+ * main - change vowels to numbers.
+ * @p: pointer
+ *
+ * Return: String with all vowels changed.
+ */
+
+
 int main(void)
 {
 	int n;
