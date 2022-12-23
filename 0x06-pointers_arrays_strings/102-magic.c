@@ -1,6 +1,12 @@
 #include <stdio.h>
 #include "main.h"
 
+/**
+ * main -the primary function
+ *
+ * Return: always 0
+ */
+
 int main(void)
 {
 	int n;
