@@ -1,14 +1,6 @@
 #include <stdio.h>
 #include "main.h"
 
-/**
- * main: the main function
- *
- * @n input
- *
- * Return:always zero
- */
-
 int main(void)
 {
 	int n;
