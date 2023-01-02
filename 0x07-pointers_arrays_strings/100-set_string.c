@@ -1,5 +1,5 @@
-#include "main.h"
-#include <stdio.h>
+#include"main.h"
+#include<stdio.h>
 
 /**
  * set_string - redirect.
