@@ -1,4 +1,4 @@
-#include "bootcamp.h"
+#include "main.h"
 /**
  * array_range - creates an array of integers
  * @min: start (min) of range of values to include
