@@ -39,5 +39,5 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 
 	*cat = '\0';
 
-	return (cat -l1 - l2);
+	return (cat - l1 - l2);
 }
